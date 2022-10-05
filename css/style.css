@@ -1,17 +1,14 @@
-.sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0px 0 0; /* Height of navbar */
-    max-width: 155px;
-    transform: translateY(30px);
-    }
+header{
+    /* height: 130px; */
+    background-color: #F8F9FA;
+  }
 
-.jumbotron{
-    height: 200px;
-    max-height: 10%;
-    background-color: aqua;
-    transform: translateX(150px);
-    padding-bottom: 50px
+.debug{
+    background-color: rgba(0, 255, 255, 0.797);
+    height: 100px;
+}
+
+.ft-jumbo{
+    background-color: #1973E8;
+    height: 25%;
 }
