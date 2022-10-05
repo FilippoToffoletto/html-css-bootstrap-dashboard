@@ -1,3 +1,24 @@
+img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* UTILITIES */
+
+.btn{
+    color: white;
+    font-size: .8rem;
+    width: fit-content;
+    line-height: 0.5;
+}
+.btn svg path{
+    padding-right: 12px;
+}
+
 header{
     /* height: 130px; */
     background-color: #F8F9FA;
@@ -11,4 +32,11 @@ header{
 .ft-jumbo{
     background-color: #1973E8;
     height: 25%;
+}
+
+/* main */
+.ft-avatar{
+    width: 28px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
