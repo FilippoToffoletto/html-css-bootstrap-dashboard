@@ -9,6 +9,11 @@ body{
 
 /* UTILITIES */
 
+.debug{
+    background-color: rgba(0, 255, 255, 0.797);
+    height: 100px;
+}
+
 .btn{
     color: white;
     font-size: .8rem;
@@ -19,22 +24,23 @@ body{
     padding-right: 12px;
 }
 
+
+/* HEADER */
 header{
     /* height: 130px; */
     background-color: #F8F9FA;
   }
 
-.debug{
-    background-color: rgba(0, 255, 255, 0.797);
-    height: 100px;
-}
+
+/* JUMBOTRON */
 
 .ft-jumbo{
     background-color: #1973E8;
     height: 25%;
 }
 
-/* main */
+
+/* MAIN */
 .ft-avatar{
     width: 28px;
     margin-right: 10px;
@@ -43,6 +49,10 @@ header{
 
 .accordation-body{
     overflow: hidden;
+}
+
+.ft-sidebar{
+    min-height: 90vh;
 }
 
 /* MEDIAQUERY */
