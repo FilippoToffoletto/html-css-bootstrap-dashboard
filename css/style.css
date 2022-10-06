@@ -31,6 +31,9 @@ header{
     background-color: #F8F9FA;
   }
 
+.ft-logo{
+    width: 3rem;
+}
 
 /* JUMBOTRON */
 
@@ -53,6 +56,8 @@ header{
 
 .ft-sidebar{
     min-height: 90vh;
+    background-image: url('../img/sidebar-bg.png');
+    padding: 0;
 }
 
 /* MEDIAQUERY */
