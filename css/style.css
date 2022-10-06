@@ -42,4 +42,14 @@ header{
 }
 
 .accordation-body{
+    overflow: hidden;
+}
+
+/* MEDIAQUERY */
+
+@media (max-width: 768px){
+    .ft-cell{
+        /* display: inline-block; */
+        display: none;
+    }
 }
