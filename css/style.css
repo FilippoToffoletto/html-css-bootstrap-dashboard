@@ -59,6 +59,16 @@ header{
     background-image: url('../img/sidebar-bg.png');
     padding: 0;
 }
+.fa-plus{
+    color: #0D6EFD;
+}
+.fa-plus:hover{
+    color: white;
+}
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
+    --bs-offcanvas-width:70%;
+}
 
 /* MEDIAQUERY */
 
